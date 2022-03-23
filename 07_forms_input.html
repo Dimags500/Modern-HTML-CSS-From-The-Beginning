@@ -10,7 +10,78 @@
 
 <body>
 
-    <form action=""></form>
+    <form action="process.js">
+
+        <!--text input-->
+
+        <section>
+            <label for="rock">Rock</label><br>
+            <input placeholder="rock" type="text" name="rock_form_form" id="rock">
+        </section>
+        <hr>
+
+        <!--passowrd input-->
+
+        <section>
+            <label for="nick_digits">Nick Digits</label><br>
+            <input type="password" name="digits_from_form" id="nick_digits">
+        </section>
+        <hr>
+
+        <!--textarea input-->
+
+        <section>
+            <label for="messege">Some Text</label><br>
+            <textarea name="text_from_form" id="messege" cols="30" rows="10"></textarea>
+        </section>
+        <hr>
+
+        <!--select dropdaown input-->
+
+        <section>
+            <label for="sex">M/F/?</label><br>
+            <select name="selected_sex_from_form" id="sex">
+                <option value="rock">Rock</option>
+                <option value="nick" selected>Nick</option>
+                <option value="bock">Bock</option>
+            </select>
+        </section>
+        <hr>
+        <!--number input-->
+
+        <div>
+            <label for="rock_number">Rock new Number</label><br>
+            <input type="number" name="rock_number_from_form" id="rock_number">
+        </div>
+
+        <hr>
+        <!--date input-->
+        <div>
+            <label for="nick_date">date</label><br>
+            <input type="date" name="date_from_form" id="nick_date">
+        </div>
+        <hr>
+        <!--radio buttons-->
+        <section>
+            <label for="radio_select">Radio select </label><br>
+            <input type="radio" name="radio_input" id="radio_select" value="type1">Rock
+            <input type="radio" name="radio_input" id="radio_select" value="type2">Nick
+            <input type="radio" name="radio_input" id="radio_select" value="type3">Goock
+        </section>
+        <hr>
+
+        <!--Chackbox-->
+        <section>
+            <label for="chackbox_select">Chackbox box </label><br>
+            <input type="checkbox" name="chackbox_select" id="chackbox_select" value="type1">Rock
+            <input type="checkbox" name="chackbox_select" id="chackbox_select" value="type3">Goock
+            <input type="checkbox" name="chackbox_select" id="chackbox_select" value="type2">Nick
+        </section>
+
+        <hr>
+        <button type="submit">Submit Rock</button>
+
+    </form>
 
 </body>
 
